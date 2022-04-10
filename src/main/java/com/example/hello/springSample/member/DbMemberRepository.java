@@ -1,3 +1,5 @@
+package com.example.hello.springSample.member;
+
 /*DB 회원 저장소*/
 public class DbMemberRepository implements MemberRepository{
 

@@ -1,3 +1,7 @@
+package com.example.hello.springSample.member;
+
+import com.example.hello.springSample.AppConfig;
+import com.example.hello.springSample.member.MemberService;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -27,5 +31,4 @@ class MemberServiceTest {
         AppConfig appConfig = new AppConfig();
         memberService = appConfig.memberService();
     }
-
 }

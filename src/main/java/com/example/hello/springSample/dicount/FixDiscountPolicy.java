@@ -1,5 +1,10 @@
+package com.example.hello.springSample.dicount;
+
+import com.example.hello.springSample.member.Grade;
+import com.example.hello.springSample.member.Member;
+
 /*정액 할인 정책*/
-public class FixDicountPolicy implements DiscountPolicy{
+public class FixDiscountPolicy implements DiscountPolicy{
 
     /*고정 할인 금액*/
     private int discountFixAmount = 1000;
@@ -15,3 +20,4 @@ public class FixDicountPolicy implements DiscountPolicy{
         }
     }
 }
+

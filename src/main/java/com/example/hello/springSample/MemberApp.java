@@ -1,3 +1,9 @@
+package com.example.hello.springSample;
+
+import com.example.hello.springSample.member.Grade;
+import com.example.hello.springSample.member.Member;
+import com.example.hello.springSample.member.MemberService;
+
 /*회원 서비스 기능 테스트(콘솔)*/
 public class MemberApp {
 

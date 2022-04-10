@@ -1,5 +1,7 @@
+package com.example.hello.springSample.member;
+
 /*회원서비스 구현체*/
-public class MemberServiceImpl implements MemberService{
+public class MemberServiceImpl implements MemberService {
 
     /*회원 저장소 참조*/
     private final MemberRepository memberRepository;

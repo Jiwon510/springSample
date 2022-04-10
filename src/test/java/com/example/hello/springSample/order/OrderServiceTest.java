@@ -1,6 +1,9 @@
-import org.assertj.core.api.Assertions;
+package com.example.hello.springSample.order;
+
+import com.example.hello.springSample.AppConfig;
+import com.example.hello.springSample.member.MemberService;
+import com.example.hello.springSample.order.OrderService;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
 
 /*회원 서비스 테스트*/
 class OrderServiceTest {

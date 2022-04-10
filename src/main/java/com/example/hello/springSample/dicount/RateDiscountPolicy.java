@@ -1,3 +1,8 @@
+package com.example.hello.springSample.dicount;
+
+import com.example.hello.springSample.member.Grade;
+import com.example.hello.springSample.member.Member;
+
 /*정률 할인 정책*/
 public class RateDiscountPolicy implements DiscountPolicy {
 
@@ -15,3 +20,4 @@ public class RateDiscountPolicy implements DiscountPolicy {
         }
     }
 }
+

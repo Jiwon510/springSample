@@ -1,3 +1,5 @@
+package com.example.hello.springSample.order;
+
 /*주문정보 객체*/
 public class Order {
     private Long memberId;
@@ -62,3 +64,4 @@ public class Order {
                 '}';
     }
 }
+

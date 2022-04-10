@@ -1,3 +1,8 @@
+package com.example.hello.springSample.discount;
+
+import com.example.hello.springSample.dicount.RateDiscountPolicy;
+import com.example.hello.springSample.member.Grade;
+import com.example.hello.springSample.member.Member;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

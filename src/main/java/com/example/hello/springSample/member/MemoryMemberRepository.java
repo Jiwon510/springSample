@@ -1,3 +1,5 @@
+package com.example.hello.springSample.member;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -19,3 +21,4 @@ public class MemoryMemberRepository implements MemberRepository {
         return store.get(memberId);
     }
 }
+

@@ -1,8 +1,10 @@
+package com.example.hello.springSample.member;
+
 /*회원 객체*/
 public class Member {
     private Long id;
     private String name;
-    private Grade grade;    //    Grade클래스 참조
+    private Grade grade;    //    Grade 클래스 참조
 
     /*생성자*/
     public Member(Long id, String name, Grade grade) {

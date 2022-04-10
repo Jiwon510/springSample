@@ -1,3 +1,12 @@
+package com.example.hello.springSample;
+
+import com.example.hello.springSample.AppConfig;
+import com.example.hello.springSample.member.Grade;
+import com.example.hello.springSample.member.Member;
+import com.example.hello.springSample.member.MemberService;
+import com.example.hello.springSample.order.Order;
+import com.example.hello.springSample.order.OrderService;
+
 /*주문 서비스 테스트(콘솔)*/
 public class OrderApp {
 
